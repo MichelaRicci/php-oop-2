@@ -2,11 +2,6 @@
 
 include __DIR__ . '/data/data.php';
 
-
-$secco = new Product('Alimento secco', 'https://www.purinashop.it/media/catalog/product/cache/c4218f1997800f206b38e4323d8d1cf4/0/7/x07613034147509_c1n1_44172084.jpg.pagespeed.ic.xQGaAY0Vvm.webp', 'Purina One', '5eur', 'Alimento secco per cani, gusto manzo', $dog, '1,5kg');
-
-
-$products = [$secco]
 ?>
 
 <!DOCTYPE html>

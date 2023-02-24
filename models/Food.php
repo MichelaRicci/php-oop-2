@@ -10,8 +10,8 @@ class Food extends Product
 
     public function __construct($name, $img, $brand, $price, $description, $category, $weight){
         
-        $this->weight = $weight;
         parent::__construct($name, $img, $brand, $price, $description, $category);
+        $this->weight = $weight;
   
     }
 }
